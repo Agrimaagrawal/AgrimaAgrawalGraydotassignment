@@ -63,3 +63,28 @@ h1{
     width: fit-content;
     margin:0px;
 }
+@media screen and (max-width: 480px){
+    .container{
+        flex-direction: column;
+    }
+    #firstbox,#secondbox{
+        height:200px;
+        width: 100px;
+        margin:20px
+    }
+    .fitm{
+        width:50px;
+        font-size: 10px;
+        margin:2px;
+    }
+    .firstimg{
+        height:20px;
+        width:fit-content;
+        padding: 0px;
+        
+    }
+    h1{
+        font-size: 4vh;
+    }
+
+}
